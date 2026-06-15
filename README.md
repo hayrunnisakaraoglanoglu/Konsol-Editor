@@ -1,23 +1,44 @@
 # KonsolEditor
 
-Konsol tabanlı metin editörü projesi.
+A console-based text editor developed in C# as part of a collaborative software engineering project.
 
-## Proje Açıklaması
-Bu proje, C# kullanılarak geliştirilmiş basit bir konsol tabanlı metin editörüdür. Dosya yönetimi, metin düzenleme ve temel UI bileşenleri içerir.
+## Project Overview
 
-## Özellikler
-- Konsol tabanlı arayüz
-- Dosya oluşturma ve düzenleme
-- Basit text buffer yönetimi
-- UI bileşenleri (Renderer, Toolbox, FileManager)
+KonsolEditor is a terminal-based text editor that runs in the command-line interface.  
+The project demonstrates core programming concepts such as object-oriented design, modular architecture, and basic file handling without using a graphical user interface.
 
-## Kullanılan Teknolojiler
+It operates entirely in the console environment and is executed at runtime.
+
+## Features
+
+- Console-based execution (no GUI)
+- Basic text buffer management
+- File reading and writing operations
+- Modular architecture (Editor, IO components)
+- Lightweight and fast execution in terminal
+
+## Project Structure
+
+- `Editor/` → Core editing logic and text buffer handling
+- `IO/` → File input/output operations
+- `UI/` → Console-based rendering utilities
+- `Program.cs` → Entry point of the application
+
+## Technologies Used
+
 - C#
 - .NET
-- OOP (Nesne Yönelimli Programlama)
+- Object-Oriented Programming (OOP)
 
-## Proje Yapısı
-- Editor/
-- IO/
-- UI/
-- Program.cs
+## Contributors
+
+- Hayrunnisa Karaoğlanoğlu  
+- Hatice Kapsız
+
+## Purpose
+
+This project was developed for educational purposes to improve understanding of software architecture, modular design, and console application development using C#.
+
+## Note
+
+This project runs entirely in the terminal and does not include a graphical user interface.
